@@ -154,3 +154,17 @@ python SMTPTool.py -v -i "50589_emails_200.json" -m "" "vttesting1217@journal.qa
 
 Or deploy into a virtualenv
 https://docs.python-guide.org/dev/virtualenvs/
+
+
+### Connect to the DB and send mails
+     
+Arguments
+
+-h, --help                                             show this help message and exit
+-g                                                     GroupID
+-s                                                     SMTPServer to be used to exchange mail
+-q                                                     Quantity of mails to be exchanged
+
+ ```
+python ConnectToDB.py -g 50064 -s "prf01cavsmtp01" -q 1
+ ```
