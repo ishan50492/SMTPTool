@@ -90,7 +90,7 @@ class EmailGenerator(object):
     def get_date(self):
         #nothing in the future or before previous year
         end_time = datetime.utcnow()
-        start_time = end_time - timedelta(weeks=52)
+        start_time = end_time - timedelta(days= 30)
         random_time = start_time + random.random() * (end_time - start_time)
         return datetime.strftime(random_time, '%m/%d/%Y %H:%M:%S')
     

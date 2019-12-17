@@ -6,15 +6,16 @@ import argparse
 parser = argparse.ArgumentParser(description='Execute SMTP Server')
 parser.add_argument("-g", type=int, required=True, dest='groupID', help='Group ID for a group')
 parser.add_argument("-q", "--quantity", type=int, dest="quantity", help="Number of emails to be generated", metavar="n", default=1)
+parser.add_argument("-s", type=str, required=True, dest="server", help='SMTP Server for Mail Exchange')
+
 args = parser.parse_args()
 
 groupID = args.groupID
 
-
 # Server Details
 ServerName = 'zdns_archive01.prf01.evc,21433'
 Database = 'ArchiveDB'
-SMTPServer = "prf01cavsmtp01"
+SMTPServer = args.server
 
 # Queries
 queryAccounts= "SELECT UserName FROM Acct WHERE GrouPID = " + str(groupID) + " and IsArchive = 1 and IsActive = 1 and RoleID = 1 and FName NOT LIKE '%Unassigned%'"
