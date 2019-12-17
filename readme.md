@@ -151,6 +151,7 @@ python SMTPTool.py -v -i "50589_emails_200.json" -m "" "vttesting1217@journal.qa
    - cd to <destination folder>
    - pip install markovify
    - pip install textblob
+   - pip install tzlocal
 
 Or deploy into a virtualenv
 https://docs.python-guide.org/dev/virtualenvs/
