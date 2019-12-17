@@ -6,6 +6,7 @@ from datetime import datetime
 from datetime import timedelta
 import RandomTextGenerator
 import email_object
+import tzlocal
 
 class EmailGenerator(object):
     mem_list = list()
@@ -92,7 +93,10 @@ class EmailGenerator(object):
         end_time = datetime.utcnow()
         start_time = end_time - timedelta(days= 30)
         random_time = start_time + random.random() * (end_time - start_time)
-        return datetime.strftime(random_time, '%m/%d/%Y %H:%M:%S')
+        tz = tzlocal.get_localzone()
+        time = tz.localize(random_time)
+
+        return datetime.strftime(time, '%a, %d %b %Y %H:%M:%S %z')
     
     # get_email(emailaddress_limit, body_sentences_limit, attachments_limit, include_attachments) - generates email with randomize data
     # params: 
