@@ -13,7 +13,7 @@ logger.setLevel(logging.INFO)
 # Here we define our formatter
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
-logHandler = handlers.TimedRotatingFileHandler('smtp_app.log', when='midnight', interval=1, backupCount=2)
+logHandler = handlers.TimedRotatingFileHandler('./Logs/smtp_app.log', when='midnight', interval=1, backupCount=2)
 logHandler.setLevel(logging.INFO)
 
 logHandler.suffix = "%Y%m%d"
