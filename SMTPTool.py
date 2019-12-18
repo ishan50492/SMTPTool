@@ -16,7 +16,6 @@ import time
 import math
 import logging
 
-logger = logging.getLogger('my_app')
 
 def custom_join(list_of_strings, sep):
     strings = ''
@@ -498,4 +497,5 @@ def interf(args):
 
 
 if __name__ == "__main__":
+    logger = logging.getLogger('my_app')
     main()
