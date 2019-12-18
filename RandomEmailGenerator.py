@@ -95,7 +95,7 @@ class EmailGenerator(object):
         #random_time = start_time + random.random() * (end_time - start_time)
         tz = tzlocal.get_localzone()
         time = tz.localize(end_time)
-        print("Tine: ", time)
+
         return datetime.strftime(time, '%a, %d %b %Y %H:%M:%S %z')
     
     # get_email(emailaddress_limit, body_sentences_limit, attachments_limit, include_attachments) - generates email with randomize data
