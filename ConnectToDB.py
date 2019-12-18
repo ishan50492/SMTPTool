@@ -83,7 +83,7 @@ for row in cursor:
     f.write(row[0] + '\n')
 
 
-logger.info("Executing query: " + 'python SMTPTool.py -v -m "" "' + journalAddress + '" "' + SMTPServer + '" -n 25025 -q ' + str(args.quantity))
+logger.info("Executing query: " + 'python SMTPTool.py -v -m "" "' + journalAddress + '" "' + SMTPServer + '" -n 25025 -q ' + str(args.quantity) + ' -f ' +  './Content/SMTPemailaddresses_' + str(groupID) + '.txt')
 
 # Start sending mails
 os.system('python SMTPTool.py -v -m "" "' + journalAddress + '" "' + SMTPServer + '" -n 25025 -q ' + str(args.quantity) + ' -f ' +  './Content/SMTPemailaddresses_' + str(groupID) + '.txt')
