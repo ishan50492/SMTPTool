@@ -158,6 +158,8 @@ def mail_random_emails(args):
 
         try:
             mail(server, args, msg)
+            print("Sent " + str(i) + " th mail")
+
         except Exception:
             # output failed email
             failed_email_file = "failedemails_" + datetime.now().strftime("%Y%m%d") + ".json"
