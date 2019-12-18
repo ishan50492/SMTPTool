@@ -1,8 +1,33 @@
 import pyodbc
 import os
 import argparse
+import logging
+import logging.handlers as handlers
+import re
 
 
+# Configure Logger
+logger = logging.getLogger('my_app')
+logger.setLevel(logging.INFO)
+
+# Here we define our formatter
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+
+logHandler = handlers.TimedRotatingFileHandler('smtp_app.log', when='midnight', interval=1, backupCount=2)
+logHandler.setLevel(logging.INFO)
+
+logHandler.suffix = "%Y%m%d"
+
+#need to change the extMatch variable to match the suffix for it
+logHandler.extMatch = re.compile(r"^\d{8}$")
+
+# Here we set our logHandler's formatter
+logHandler.setFormatter(formatter)
+
+logger.addHandler(logHandler)
+
+
+##Command Line Args
 parser = argparse.ArgumentParser(description='Execute SMTP Server')
 parser.add_argument("-g", type=int, required=True, dest='groupID', help='Group ID for a group')
 parser.add_argument("-q", "--quantity", type=int, dest="quantity", help="Number of emails to be generated", metavar="n", default=1)
@@ -41,6 +66,12 @@ print("Server: ", ServerName)
 print("Database: ", Database)
 print("SMTPServer: ", SMTPServer)
 
+logger.info("Group ID: " + str(groupID))
+logger.info("Journal Address: " + str(journalAddress))
+logger.info("Server: " + str(ServerName))
+logger.info("Database: " + str(Database))
+logger.info("SMTPServer: " + str(SMTPServer))
+
 print("\n\n\n\n")
 
 cursor = connec.cursor()
@@ -51,6 +82,8 @@ f = open('./Content/SMTPemailaddresses.txt', 'w', encoding='utf8')
 for row in cursor:
     f.write(row[0] + '\n')
 
+
+logger.info("Executing query: " + 'python SMTPTool.py -v -m "" "' + journalAddress + '" "' + SMTPServer + '" -n 25025 -q ' + str(args.quantity))
 
 # Start sending mails
 os.system('python SMTPTool.py -v -m "" "' + journalAddress + '" "' + SMTPServer + '" -n 25025 -q ' + str(args.quantity))

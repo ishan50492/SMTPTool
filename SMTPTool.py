@@ -14,7 +14,9 @@ import RandomEmailGenerator
 import email_object
 import time
 import math
+import logging
 
+logger = logging.getLogger('my_app')
 
 def custom_join(list_of_strings, sep):
     strings = ''
@@ -81,6 +83,8 @@ def mail_random_emails(args):
     for i in range(args.quantity):
 
         print("Sending " + str(i) + " th mail")
+        logger.info("Sending " + str(i) + " th mail")
+
         random_email = None
         random_email = email_gtr.get_email(include_attachments=includeAttachments)
 
@@ -159,6 +163,7 @@ def mail_random_emails(args):
         try:
             mail(server, args, msg)
             print("Sent " + str(i) + " th mail")
+            logger.info("Sent " + str(i) + " th mail")
 
         except Exception:
             # output failed email
