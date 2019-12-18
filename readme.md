@@ -155,9 +155,9 @@ python SMTPTool.py -v -i "50589_emails_200.json" -m "" "vttesting1217@journal.qa
    - pip install textblob
    - pip install tzlocal
 ```
+
 Check Package installations by executing
-```
-```
+
 python ConnectToDB.py -g 50064 -s "prf01cavsmtp01" -q 1
 ```
 Or deploy into a virtualenv
