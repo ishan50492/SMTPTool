@@ -3,11 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="d8780cdb-2e3e-4063-b789-75238845d521" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/smtp_app.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/smtp_app.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SampleBatch.bat" beforeDir="false" afterPath="$PROJECT_DIR$/SampleBatch.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smtp_app.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testCMDFromPython.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/SMTPemailaddresses_50086.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Content/SMTPemailaddresses_50086.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/SMTPemailaddresses_50087.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Content/SMTPemailaddresses_50087.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/SMTPemailaddresses_50088.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Content/SMTPemailaddresses_50088.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/SMTPemailaddresses_50089.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Content/SMTPemailaddresses_50089.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/SMTPemailaddresses_50090.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Content/SMTPemailaddresses_50090.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/SMTPemailaddresses_50091.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Content/SMTPemailaddresses_50091.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/SMTPemailaddresses_50092.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Content/SMTPemailaddresses_50092.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/SMTPemailaddresses_50093.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Content/SMTPemailaddresses_50093.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/SMTPemailaddresses_50094.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Content/SMTPemailaddresses_50094.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/SMTPemailaddresses_50095.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Content/SMTPemailaddresses_50095.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/SMTPemailaddresses_50096.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Content/SMTPemailaddresses_50096.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/SMTPemailaddresses_50097.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Content/SMTPemailaddresses_50097.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/SMTPemailaddresses_50098.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Content/SMTPemailaddresses_50098.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/SampleBatch.bat">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="61" lean-forward="true" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
+              <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -54,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/BatchFiles/SampleBatch.bat">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="64" lean-forward="true" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
+              <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -335,6 +343,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17860906" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -478,7 +487,7 @@
     <entry file="file://$PROJECT_DIR$/BatchFiles/SampleBatch.bat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="64" lean-forward="true" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
+          <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -495,7 +504,7 @@
     <entry file="file://$PROJECT_DIR$/SampleBatch.bat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="61" lean-forward="true" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
+          <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
         </state>
       </provider>
     </entry>
