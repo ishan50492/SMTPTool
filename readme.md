@@ -147,12 +147,19 @@ python SMTPTool.py -v -i "50589_emails_200.json" -m "" "vttesting1217@journal.qa
 - Based upon the number of emails to be generated, a text file containing random words with random characters will be generated, which will be used to generate subject and body of mails
 
 ### Deploying SMTPTool (requires Python 3.6.x) dependencies:
-   - copy files to <destination folder>
-   - cd to <destination folder>
+
+   - Install python
+   - copy files to destination folder
+   - cd to destination folder
    - pip install markovify
    - pip install textblob
    - pip install tzlocal
+```
 
+Check Package installations by executing
+
+python ConnectToDB.py -g 50064 -s "prf01cavsmtp01" -q 1
+```
 Or deploy into a virtualenv
 https://docs.python-guide.org/dev/virtualenvs/
 
