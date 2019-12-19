@@ -149,24 +149,19 @@ python SMTPTool.py -v -i "50589_emails_200.json" -m "" "vttesting1217@journal.qa
 ### Deploying SMTPTool (requires Python 3.6.x) dependencies:
 
    - Install python
-   - copy files to destination folder
-   - cd to destination folder
+   - Download and unzip folder SMTPTool
+   - cd to SMTPTool
+   - Install python packages by executing
+   ```
    - pip install markovify
    - pip install textblob
    - pip install tzlocal
-```
-
-Check Package installations by executing
-
-python ConnectToDB.py -g 50064 -s "prf01cavsmtp01" -q 1
-```
-Or deploy into a virtualenv
-https://docs.python-guide.org/dev/virtualenvs/
-
+   ```
 
 ### Connect to the DB and send mails
-     
-Arguments
+
+####Method 1: Execute ConnectToDB.py
+Arguments usage
 
 ```
 -h, --help                                             show this help message and exit
@@ -176,3 +171,15 @@ Arguments
 
 python ConnectToDB.py -g 50064 -s "prf01cavsmtp01" -q 1
  ```
+####Method 2: Execute Batch file
+
+Double click the SampleBatch.bat 
+
+SampleBatch.bat
+
+```buildoutcfg
+@echo off
+start cmd.exe /K python ConnectToDB.py -g 50072 -s "prf01cavsmtp01" -q 1
+start cmd.exe /K python ConnectToDB.py -g 50073 -s "prf01cavsmtp01" -q 1
+start cmd.exe /K python ConnectToDB.py -g 50074 -s "prf01cavsmtp01" -q 1
+```
