@@ -153,9 +153,11 @@ python SMTPTool.py -v -i "50589_emails_200.json" -m "" "vttesting1217@journal.qa
    - cd to SMTPTool
    - Install python packages by executing
    ```
-   - pip install markovify
-   - pip install textblob
-   - pip install tzlocal
+   $pip install markovify
+   $pip install textblob
+   $pip install tzlocal
+   $pip install pyodbc
+   
    ```
 
 ### Connect to the DB and send mails
