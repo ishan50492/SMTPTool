@@ -11,3 +11,35 @@ $pip install textblob
 $pip install tzlocal
 $pip install pyodbc
 ```
+
+(For Windows machines only)
+
+5. Open Visual Studio Installer
+6. Select the associated VS and modify it
+7. Install Python development component
+
+***
+
+### Executing the Tool
+
+1. Righ click and open the batch file SampleBatch.bat
+
+SAMPLE TEXT
+```
+@echo off
+start cmd.exe /K python ConnectToDB.py -g 50072 -s "prf01cavsmtp01" -q 1
+start cmd.exe /K python ConnectToDB.py -g 50073 -s "prf01cavsmtp01" -q 1
+start cmd.exe /K python ConnectToDB.py -g 50074 -s "prf01cavsmtp01" -q 1
+```
+
+2. Meaning of flags 
+
+```
+-g                                                     GroupID
+-s                                                     SMTPServer to be used to exchange mail
+-q                                                     Quantity of mails to be exchanged
+```
+
+3. Provide the gropu number, smtpServer and quantity of mails to be generated and update the text file and save the text file
+
+4. To execute, just double click the .bat file and this should open multiple windows(depending on number of groups provided) and mail data generation is started
