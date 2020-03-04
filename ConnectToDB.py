@@ -1,4 +1,5 @@
 import pyodbc
+import configparser
 import os
 import argparse
 import logging
@@ -37,10 +38,14 @@ args = parser.parse_args()
 
 groupID = args.groupID
 
+settings = configparser.ConfigParser()
+settings._interpolation = configparser.ExtendedInterpolation()
+settings.read('Config.ini')
+
 # Server Details
-ServerName = 'zdns_archive01.prf01.evc,21433'
-Database = 'ArchiveDB'
-PortNumber = 25025
+ServerName = settings.get('DBServerDetails', 'ServerName')
+Database = settings.get('DBServerDetails', 'DatabaseName')
+PortNumber = settings.get('DBServerDetails', 'PortNumber')
 SMTPServer = args.server
 
 # Queries
