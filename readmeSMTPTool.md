@@ -55,6 +55,6 @@ start cmd.exe /K python ConnectToDB.py -g 50074 -s "prf01cavsmtp01" -q 1
 
 3. Provide the group number, smtpServer and quantity of mails to be generated and update the text file and save
 
-4. To execute, just double click the .bat file and this should open multiple windows(depending on number of groups provided) and mail data generation is started
+4. To execute, just double click the .bat file and this should open multiple windows(depending on number of groups provided) and mail data generation will begin
 
 NOTE: This tool has been configured to work in a windows environment only
