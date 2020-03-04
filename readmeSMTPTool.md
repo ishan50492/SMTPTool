@@ -17,7 +17,22 @@ $pip install pyodbc
 7. Install Python development component
 
 ***
+### Configuring Config.ini
 
+This configuration contains 3 configurable parameters parameters:
+
+```
+Syntax…
+ServerName : [serverName]]
+DatabaseName : [DBName]
+PortNumber : [PortNumber]
+
+Example:
+ServerName : zdns_archive01.prf01.evc,21433
+DatabaseName : ArchiveDB
+PortNumber : 25025
+```
+***
 ### Executing the Tool
 
 1. Right click and open the batch file SampleBatch.bat
