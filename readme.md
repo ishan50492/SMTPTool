@@ -21,7 +21,7 @@ SMTPTool
      |   Le_Diable_au_corps.txt         - French text document for generating French context
 ```
 
-Usage: SMTPTool.py [args] serveraddress
+Usage: SMTPTool.py [args] serveraddress 
 
 SMTPTool.py is the main script which is responsible for sending the data via the provided server
 
