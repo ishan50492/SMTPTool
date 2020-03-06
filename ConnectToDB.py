@@ -87,6 +87,7 @@ cursor.execute(queryAccounts)
 f = open('./Content/SMTPemailaddresses_' + str(groupID) + '.txt', 'w', encoding='utf8')
 for row in cursor:
     f.write(row[0] + '\n')
+f.close()
 
 
 logger.info("Executing query: " + 'python SMTPTool.py -v -m "" "' + journalAddress + '" "' + SMTPServer + '" -n ' + str(PortNumber)+ ' -q ' + str(args.quantity) + ' -f ' +  './Content/SMTPemailaddresses_' + str(groupID) + '.txt')
