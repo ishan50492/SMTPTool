@@ -90,7 +90,7 @@ for row in cursor:
 f.close()
 
 emailAddressesFile = './Content/SMTPemailaddresses_' + str(groupID) + '.txt'
-emailAddressesFile = './Content/SMTPemailaddresses.txt'
+#emailAddressesFile = './Content/SMTPemailaddresses.txt'
 
 logger.info("Executing query: " + 'python SMTPTool.py -v -m "" "' + journalAddress + '" "' + SMTPServer + '" -n ' + str(PortNumber)+ ' -q ' + str(args.quantity) + ' -f ' +  emailAddressesFile)
 
