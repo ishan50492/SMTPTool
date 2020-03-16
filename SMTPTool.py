@@ -15,7 +15,7 @@ import email_object
 import time
 import math
 import logging
-
+import SendMail
 
 def custom_join(list_of_strings, sep):
     strings = ''
@@ -91,6 +91,9 @@ def mail_random_emails(args):
         msg['From'] = replace_emaildomain(args, random_email.sender[0])
         msg['Date'] = random_email.sent_date
 
+        # Sequentially send all mails From all user accounts for the Current Group args.addresses_file
+
+
         # If subject is required to be translated from english, translate it
         if args.flag_lang != 'en':
             blob = TextBlob(str(random_email.subject[0]))
@@ -105,6 +108,9 @@ def mail_random_emails(args):
             msg['To'] = replace_emaildomain(args, custom_join(random_email.to, ', '))
         else:
             msg['To'] = random_email.to[0]
+
+        print('From: ', msg['From'])
+        print('To: ', msg['To'])
 
         if (random_email.cc is None or len(random_email.cc) == 0):
             msg['cc'] = ''
@@ -481,11 +487,12 @@ def main():
 
         if (args.json_input == ""):
             print('Generating ' + str(args.quantity) + ' emails...')
-            mail_random_emails(args)
+            #mail_random_emails(args)
+            SendMail.mail_sequential_emails(args)
         else:
             print('Sending emails from', args.json_input)
-            mail_input_emails(args)
-
+            #mail_input_emails(args)
+            SendMail.mail_sequential_emails(args)
 
 def interf(args):
     if (args.json_input == ""):

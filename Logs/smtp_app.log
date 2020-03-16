@@ -298,3 +298,333 @@
 2019-12-18 19:56:08,633 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group11@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses_50073.txt
 2019-12-18 19:56:08,637 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group12@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses_50074.txt
 2019-12-18 19:56:08,639 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses_50072.txt
+2020-03-16 09:33:51,425 - my_app - INFO - Group ID: 50072
+2020-03-16 09:33:51,425 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 09:33:51,425 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 09:33:51,425 - my_app - INFO - Database: ArchiveDB
+2020-03-16 09:33:51,426 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 09:33:51,464 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses_50072.txt
+2020-03-16 09:47:57,562 - my_app - INFO - Group ID: 50072
+2020-03-16 09:47:57,563 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 09:47:57,563 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 09:47:57,563 - my_app - INFO - Database: ArchiveDB
+2020-03-16 09:47:57,563 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 09:47:57,610 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses_50072.txt
+2020-03-16 10:30:46,004 - my_app - INFO - Group ID: 50072
+2020-03-16 10:30:46,004 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 10:30:46,004 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 10:30:46,004 - my_app - INFO - Database: ArchiveDB
+2020-03-16 10:30:46,004 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 10:30:46,044 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses_50072.txt
+2020-03-16 10:31:45,448 - my_app - INFO - Group ID: 50072
+2020-03-16 10:31:45,448 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 10:31:45,448 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 10:31:45,448 - my_app - INFO - Database: ArchiveDB
+2020-03-16 10:31:45,448 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 10:31:45,489 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses_50072.txt
+2020-03-16 10:32:11,172 - my_app - INFO - Group ID: 50072
+2020-03-16 10:32:11,173 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 10:32:11,173 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 10:32:11,173 - my_app - INFO - Database: ArchiveDB
+2020-03-16 10:32:11,173 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 10:32:11,212 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses_50072.txt
+2020-03-16 10:33:12,387 - my_app - INFO - Group ID: 50072
+2020-03-16 10:33:12,388 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 10:33:12,388 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 10:33:12,388 - my_app - INFO - Database: ArchiveDB
+2020-03-16 10:33:12,388 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 10:33:12,429 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses_50072.txt
+2020-03-16 10:34:02,702 - my_app - INFO - Group ID: 50072
+2020-03-16 10:34:02,702 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 10:34:02,702 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 10:34:02,702 - my_app - INFO - Database: ArchiveDB
+2020-03-16 10:34:02,702 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 10:34:02,741 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses_50072.txt
+2020-03-16 10:37:29,169 - my_app - INFO - Group ID: 50072
+2020-03-16 10:37:29,169 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 10:37:29,169 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 10:37:29,169 - my_app - INFO - Database: ArchiveDB
+2020-03-16 10:37:29,169 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 10:37:29,213 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses_50072.txt
+2020-03-16 10:38:58,079 - my_app - INFO - Group ID: 50072
+2020-03-16 10:38:58,079 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 10:38:58,079 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 10:38:58,080 - my_app - INFO - Database: ArchiveDB
+2020-03-16 10:38:58,080 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 10:38:58,120 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses_50072.txt
+2020-03-16 10:40:26,156 - my_app - INFO - Group ID: 50072
+2020-03-16 10:40:26,157 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 10:40:26,157 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 10:40:26,157 - my_app - INFO - Database: ArchiveDB
+2020-03-16 10:40:26,157 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 10:40:26,196 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses_50072.txt
+2020-03-16 10:40:38,414 - my_app - INFO - Group ID: 50072
+2020-03-16 10:40:38,414 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 10:40:38,414 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 10:40:38,414 - my_app - INFO - Database: ArchiveDB
+2020-03-16 10:40:38,415 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 10:40:38,468 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses_50072.txt
+2020-03-16 10:42:59,504 - my_app - INFO - Group ID: 50072
+2020-03-16 10:42:59,504 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 10:42:59,504 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 10:42:59,504 - my_app - INFO - Database: ArchiveDB
+2020-03-16 10:42:59,504 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 10:42:59,544 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses_50072.txt
+2020-03-16 10:44:46,023 - my_app - INFO - Group ID: 50072
+2020-03-16 10:44:46,024 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 10:44:46,024 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 10:44:46,024 - my_app - INFO - Database: ArchiveDB
+2020-03-16 10:44:46,024 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 10:44:46,057 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses_50072.txt
+2020-03-16 10:45:31,187 - my_app - INFO - Group ID: 50072
+2020-03-16 10:45:31,187 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 10:45:31,187 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 10:45:31,187 - my_app - INFO - Database: ArchiveDB
+2020-03-16 10:45:31,187 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 10:45:31,222 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses_50072.txt
+2020-03-16 10:46:14,688 - my_app - INFO - Group ID: 50072
+2020-03-16 10:46:14,688 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 10:46:14,688 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 10:46:14,689 - my_app - INFO - Database: ArchiveDB
+2020-03-16 10:46:14,689 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 10:46:14,727 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses_50072.txt
+2020-03-16 10:48:28,343 - my_app - INFO - Group ID: 50072
+2020-03-16 10:48:28,343 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 10:48:28,343 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 10:48:28,343 - my_app - INFO - Database: ArchiveDB
+2020-03-16 10:48:28,343 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 10:48:28,373 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses_50072.txt
+2020-03-16 10:49:31,398 - my_app - INFO - Group ID: 50072
+2020-03-16 10:49:31,398 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 10:49:31,399 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 10:49:31,399 - my_app - INFO - Database: ArchiveDB
+2020-03-16 10:49:31,399 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 10:49:31,447 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses_50072.txt
+2020-03-16 10:51:17,894 - my_app - INFO - Group ID: 50072
+2020-03-16 10:51:17,895 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 10:51:17,895 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 10:51:17,895 - my_app - INFO - Database: ArchiveDB
+2020-03-16 10:51:17,895 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 10:51:17,951 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses_50072.txt
+2020-03-16 10:52:05,397 - my_app - INFO - Group ID: 50072
+2020-03-16 10:52:05,397 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 10:52:05,397 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 10:52:05,397 - my_app - INFO - Database: ArchiveDB
+2020-03-16 10:52:05,397 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 10:52:05,440 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses_50072.txt
+2020-03-16 10:53:54,940 - my_app - INFO - Group ID: 50072
+2020-03-16 10:53:54,940 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 10:53:54,940 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 10:53:54,940 - my_app - INFO - Database: ArchiveDB
+2020-03-16 10:53:54,940 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 10:53:54,979 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses_50072.txt
+2020-03-16 10:54:55,677 - my_app - INFO - Group ID: 50072
+2020-03-16 10:54:55,677 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 10:54:55,677 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 10:54:55,677 - my_app - INFO - Database: ArchiveDB
+2020-03-16 10:54:55,677 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 10:54:55,732 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses_50072.txt
+2020-03-16 10:56:11,355 - my_app - INFO - Group ID: 50072
+2020-03-16 10:56:11,355 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 10:56:11,355 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 10:56:11,355 - my_app - INFO - Database: ArchiveDB
+2020-03-16 10:56:11,355 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 10:56:11,396 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses_50072.txt
+2020-03-16 10:57:29,986 - my_app - INFO - Group ID: 50072
+2020-03-16 10:57:29,986 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 10:57:29,986 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 10:57:29,986 - my_app - INFO - Database: ArchiveDB
+2020-03-16 10:57:29,987 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 10:57:30,023 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses_50072.txt
+2020-03-16 10:58:32,311 - my_app - INFO - Group ID: 50072
+2020-03-16 10:58:32,311 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 10:58:32,311 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 10:58:32,311 - my_app - INFO - Database: ArchiveDB
+2020-03-16 10:58:32,311 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 10:58:32,347 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses_50072.txt
+2020-03-16 10:58:59,745 - my_app - INFO - Group ID: 50072
+2020-03-16 10:58:59,745 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 10:58:59,745 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 10:58:59,745 - my_app - INFO - Database: ArchiveDB
+2020-03-16 10:58:59,745 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 10:58:59,797 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses_50072.txt
+2020-03-16 11:02:35,109 - my_app - INFO - Group ID: 50072
+2020-03-16 11:02:35,109 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 11:02:35,109 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 11:02:35,109 - my_app - INFO - Database: ArchiveDB
+2020-03-16 11:02:35,109 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 11:02:35,157 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses_50072.txt
+2020-03-16 11:04:20,769 - my_app - INFO - Group ID: 50072
+2020-03-16 11:04:20,769 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 11:04:20,769 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 11:04:20,769 - my_app - INFO - Database: ArchiveDB
+2020-03-16 11:04:20,769 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 11:04:20,808 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses_50072.txt
+2020-03-16 11:06:55,012 - my_app - INFO - Group ID: 50072
+2020-03-16 11:06:55,013 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 11:06:55,013 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 11:06:55,013 - my_app - INFO - Database: ArchiveDB
+2020-03-16 11:06:55,013 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 11:06:55,061 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses_50072.txt
+2020-03-16 11:07:22,324 - my_app - INFO - Group ID: 50072
+2020-03-16 11:07:22,324 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 11:07:22,324 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 11:07:22,324 - my_app - INFO - Database: ArchiveDB
+2020-03-16 11:07:22,324 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 11:07:22,368 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses_50072.txt
+2020-03-16 11:07:59,753 - my_app - INFO - Group ID: 50072
+2020-03-16 11:07:59,753 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 11:07:59,754 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 11:07:59,754 - my_app - INFO - Database: ArchiveDB
+2020-03-16 11:07:59,754 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 11:07:59,822 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses_50072.txt
+2020-03-16 11:08:29,963 - my_app - INFO - Group ID: 50072
+2020-03-16 11:08:29,963 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 11:08:29,964 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 11:08:29,964 - my_app - INFO - Database: ArchiveDB
+2020-03-16 11:08:29,964 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 11:08:30,005 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses_50072.txt
+2020-03-16 11:08:59,736 - my_app - INFO - Group ID: 50072
+2020-03-16 11:08:59,737 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 11:08:59,737 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 11:08:59,737 - my_app - INFO - Database: ArchiveDB
+2020-03-16 11:08:59,737 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 11:08:59,779 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses_50072.txt
+2020-03-16 11:11:45,356 - my_app - INFO - Group ID: 50072
+2020-03-16 11:11:45,356 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 11:11:45,356 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 11:11:45,356 - my_app - INFO - Database: ArchiveDB
+2020-03-16 11:11:45,356 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 11:11:45,393 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses_50072.txt
+2020-03-16 11:15:01,344 - my_app - INFO - Group ID: 50072
+2020-03-16 11:15:01,344 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 11:15:01,344 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 11:15:01,344 - my_app - INFO - Database: ArchiveDB
+2020-03-16 11:15:01,344 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 11:15:01,385 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses_50072.txt
+2020-03-16 11:42:45,602 - my_app - INFO - Group ID: 50072
+2020-03-16 11:42:45,602 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 11:42:45,603 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 11:42:45,603 - my_app - INFO - Database: ArchiveDB
+2020-03-16 11:42:45,603 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 11:42:45,640 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses_50072.txt
+2020-03-16 11:49:33,316 - my_app - INFO - Group ID: 50072
+2020-03-16 11:49:33,316 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 11:49:33,316 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 11:49:33,316 - my_app - INFO - Database: ArchiveDB
+2020-03-16 11:49:33,316 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 11:49:33,370 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses_50072.txt
+2020-03-16 12:04:38,446 - my_app - INFO - Group ID: 50072
+2020-03-16 12:04:38,446 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 12:04:38,446 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 12:04:38,446 - my_app - INFO - Database: ArchiveDB
+2020-03-16 12:04:38,447 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 12:04:38,496 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses_50072.txt
+2020-03-16 12:10:16,049 - my_app - INFO - Group ID: 50072
+2020-03-16 12:10:16,050 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 12:10:16,050 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 12:10:16,050 - my_app - INFO - Database: ArchiveDB
+2020-03-16 12:10:16,050 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 12:10:16,087 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses_50072.txt
+2020-03-16 12:45:39,188 - my_app - INFO - Group ID: 50072
+2020-03-16 12:45:39,188 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 12:45:39,188 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 12:45:39,188 - my_app - INFO - Database: ArchiveDB
+2020-03-16 12:45:39,188 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 12:45:39,234 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses.txt
+2020-03-16 12:46:39,491 - my_app - INFO - Group ID: 50072
+2020-03-16 12:46:39,492 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 12:46:39,492 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 12:46:39,493 - my_app - INFO - Database: ArchiveDB
+2020-03-16 12:46:39,493 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 12:46:39,558 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses.txt
+2020-03-16 12:54:56,210 - my_app - INFO - Group ID: 50072
+2020-03-16 12:54:56,210 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 12:54:56,210 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 12:54:56,211 - my_app - INFO - Database: ArchiveDB
+2020-03-16 12:54:56,211 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 12:54:56,273 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses.txt
+2020-03-16 12:55:32,420 - my_app - INFO - Group ID: 50072
+2020-03-16 12:55:32,420 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 12:55:32,421 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 12:55:32,421 - my_app - INFO - Database: ArchiveDB
+2020-03-16 12:55:32,421 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 12:55:32,478 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses.txt
+2020-03-16 13:00:50,981 - my_app - INFO - Group ID: 50072
+2020-03-16 13:00:50,981 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 13:00:50,981 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 13:00:50,981 - my_app - INFO - Database: ArchiveDB
+2020-03-16 13:00:50,981 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 13:00:51,029 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses.txt
+2020-03-16 13:02:30,673 - my_app - INFO - Group ID: 50072
+2020-03-16 13:02:30,673 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 13:02:30,673 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 13:02:30,674 - my_app - INFO - Database: ArchiveDB
+2020-03-16 13:02:30,674 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 13:02:30,721 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses.txt
+2020-03-16 13:03:34,691 - my_app - INFO - Group ID: 50072
+2020-03-16 13:03:34,691 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 13:03:34,691 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 13:03:34,691 - my_app - INFO - Database: ArchiveDB
+2020-03-16 13:03:34,691 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 13:03:34,743 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses.txt
+2020-03-16 13:04:29,357 - my_app - INFO - Group ID: 50072
+2020-03-16 13:04:29,357 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 13:04:29,357 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 13:04:29,357 - my_app - INFO - Database: ArchiveDB
+2020-03-16 13:04:29,357 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 13:04:29,398 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses.txt
+2020-03-16 13:06:38,508 - my_app - INFO - Group ID: 50072
+2020-03-16 13:06:38,508 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 13:06:38,508 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 13:06:38,508 - my_app - INFO - Database: ArchiveDB
+2020-03-16 13:06:38,508 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 13:06:38,550 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses.txt
+2020-03-16 13:11:26,950 - my_app - INFO - Group ID: 50072
+2020-03-16 13:11:26,950 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 13:11:26,950 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 13:11:26,951 - my_app - INFO - Database: ArchiveDB
+2020-03-16 13:11:26,951 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 13:11:26,996 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses.txt
+2020-03-16 13:13:03,360 - my_app - INFO - Group ID: 50072
+2020-03-16 13:13:03,361 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 13:13:03,361 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 13:13:03,361 - my_app - INFO - Database: ArchiveDB
+2020-03-16 13:13:03,361 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 13:13:03,445 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses.txt
+2020-03-16 13:20:23,075 - my_app - INFO - Group ID: 50072
+2020-03-16 13:20:23,076 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 13:20:23,076 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 13:20:23,076 - my_app - INFO - Database: ArchiveDB
+2020-03-16 13:20:23,076 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 13:20:23,131 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses.txt
+2020-03-16 13:21:10,660 - my_app - INFO - Group ID: 50072
+2020-03-16 13:21:10,660 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 13:21:10,660 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 13:21:10,660 - my_app - INFO - Database: ArchiveDB
+2020-03-16 13:21:10,660 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 13:21:10,717 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses.txt
+2020-03-16 13:24:46,249 - my_app - INFO - Group ID: 50072
+2020-03-16 13:24:46,250 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 13:24:46,250 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 13:24:46,250 - my_app - INFO - Database: ArchiveDB
+2020-03-16 13:24:46,250 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 13:24:46,299 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses.txt
+2020-03-16 13:28:23,539 - my_app - INFO - Group ID: 50072
+2020-03-16 13:28:23,539 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 13:28:23,539 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 13:28:23,539 - my_app - INFO - Database: ArchiveDB
+2020-03-16 13:28:23,539 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 13:28:23,584 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses.txt
+2020-03-16 13:30:36,901 - my_app - INFO - Group ID: 50072
+2020-03-16 13:30:36,902 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 13:30:36,902 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 13:30:36,902 - my_app - INFO - Database: ArchiveDB
+2020-03-16 13:30:36,902 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 13:30:36,938 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses_50072.txt
+2020-03-16 13:31:30,899 - my_app - INFO - Group ID: 50072
+2020-03-16 13:31:30,899 - my_app - INFO - Journal Address: vas-prf-group10@journal.dev.archivecloud.net
+2020-03-16 13:31:30,900 - my_app - INFO - Server: zdns_archive01.prf01.evc,21433
+2020-03-16 13:31:30,900 - my_app - INFO - Database: ArchiveDB
+2020-03-16 13:31:30,900 - my_app - INFO - SMTPServer: prf01cavsmtp01
+2020-03-16 13:31:30,961 - my_app - INFO - Executing query: python SMTPTool.py -v -m "" "vas-prf-group10@journal.dev.archivecloud.net" "prf01cavsmtp01" -n 25025 -q 1 -f ./Content/SMTPemailaddresses.txt

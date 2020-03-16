@@ -89,8 +89,10 @@ for row in cursor:
     f.write(row[0] + '\n')
 f.close()
 
+emailAddressesFile = './Content/SMTPemailaddresses_' + str(groupID) + '.txt'
+emailAddressesFile = './Content/SMTPemailaddresses.txt'
 
-logger.info("Executing query: " + 'python SMTPTool.py -v -m "" "' + journalAddress + '" "' + SMTPServer + '" -n ' + str(PortNumber)+ ' -q ' + str(args.quantity) + ' -f ' +  './Content/SMTPemailaddresses_' + str(groupID) + '.txt')
+logger.info("Executing query: " + 'python SMTPTool.py -v -m "" "' + journalAddress + '" "' + SMTPServer + '" -n ' + str(PortNumber)+ ' -q ' + str(args.quantity) + ' -f ' +  emailAddressesFile)
 
 # Start sending mails
-os.system('python SMTPTool.py -v -m "" "' + journalAddress + '" "' + SMTPServer + '" -n ' + str(PortNumber)+ ' -q ' + str(args.quantity) + ' -f ' +  './Content/SMTPemailaddresses_' + str(groupID) + '.txt')
+os.system('python SMTPTool.py -v -m "" "' + journalAddress + '" "' + SMTPServer + '" -n ' + str(PortNumber)+ ' -q ' + str(args.quantity) + ' -f ' +  emailAddressesFile)
