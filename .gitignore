@@ -10,3 +10,4 @@ Logs/
 # Ignoring Metadata files
 .idea/workspace.xml
 *.pyc
+git pull
