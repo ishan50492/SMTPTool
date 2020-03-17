@@ -72,7 +72,7 @@ def mail_sequential_emails(args):
         msg['From'] = account.rstrip('\n')
 
         for i in range(args.quantity):
-            print("Sending Mail No: " + str(i))
+            print("Sending Mail No: " + str(i+1))
 
             random_email = None
             random_email = email_gtr.get_email(include_attachments=includeAttachments)
