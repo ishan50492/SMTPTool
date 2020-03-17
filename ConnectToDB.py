@@ -14,10 +14,10 @@ logger.setLevel(logging.INFO)
 # Here we define our formatter
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
-logHandler = handlers.TimedRotatingFileHandler('./Logs/smtp_app.log', when='midnight', interval=1, backupCount=2)
+logHandler = handlers.TimedRotatingFileHandler('./Logs/smtp_app_', when='midnight', interval=1, backupCount=2)
 logHandler.setLevel(logging.INFO)
 
-logHandler.suffix = "%Y%m%d"
+logHandler.suffix = "%Y%m%d.log"
 
 #need to change the extMatch variable to match the suffix for it
 logHandler.extMatch = re.compile(r"^\d{8}$")
