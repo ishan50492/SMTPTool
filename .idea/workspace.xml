@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8780cdb-2e3e-4063-b789-75238845d521" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SendMail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConnectToDB.py" beforeDir="false" afterPath="$PROJECT_DIR$/ConnectToDB.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/SMTPemailaddresses.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Content/SMTPemailaddresses.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/smtp_app.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/smtp_app.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SMTPTool.py" beforeDir="false" afterPath="$PROJECT_DIR$/SMTPTool.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SampleBatch.bat" beforeDir="false" afterPath="$PROJECT_DIR$/SampleBatch.bat" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/SMTPTool.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="475">
-              <caret line="504" lean-forward="true" selection-start-line="504" selection-end-line="504" />
+              <caret line="504" selection-start-line="504" selection-end-line="504" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
                 <element signature="e#413#636#0" />
@@ -48,13 +45,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SendMail.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="96" column="70" lean-forward="true" selection-start-line="96" selection-start-column="70" selection-end-line="96" selection-end-column="70" />
+            <state>
+              <caret line="203" column="26" selection-start-line="203" selection-start-column="26" selection-end-line="203" selection-end-column="26" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
+                <element signature="e#422#6985#0" />
                 <element signature="e#8139#14606#0" />
                 <element signature="e#14701#19187#0" />
               </folding>
@@ -65,11 +63,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ConnectToDB.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+            <state relative-caret-position="1104">
+              <caret line="97" column="43" selection-start-line="97" selection-start-column="43" selection-end-line="97" selection-end-column="43" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Config.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -119,12 +135,14 @@
         <option value="$PROJECT_DIR$/Content/SMTPemailaddresses_50072.txt" />
         <option value="$PROJECT_DIR$/Content/SMTPemailaddresses.txt" />
         <option value="$PROJECT_DIR$/SMTPTool.py" />
-        <option value="$PROJECT_DIR$/ConnectToDB.py" />
         <option value="$PROJECT_DIR$/SendMail.py" />
+        <option value="$PROJECT_DIR$/ConnectToDB.py" />
+        <option value="$PROJECT_DIR$/Config.ini" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="120" />
     <option name="width" value="1643" />
     <option name="height" value="1167" />
@@ -151,7 +169,7 @@
             <path>
               <item name="SMTPTool" type="b2602c69:ProjectViewProjectNode" />
               <item name="SMTPTool" type="462c0819:PsiDirectoryNode" />
-              <item name="Content" type="462c0819:PsiDirectoryNode" />
+              <item name="Logs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -412,13 +430,6 @@
     <entry file="file://$PROJECT_DIR$/failedemails_20200316.json">
       <provider selected="true" editor-type-id="LargeFileEditor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Content/SMTPemailaddresses.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -456,7 +467,7 @@
     <entry file="file://$PROJECT_DIR$/SMTPTool.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
-          <caret line="504" lean-forward="true" selection-start-line="504" selection-end-line="504" />
+          <caret line="504" selection-start-line="504" selection-end-line="504" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#413#636#0" />
@@ -469,25 +480,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SendMail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="203" column="26" selection-start-line="203" selection-start-column="26" selection-end-line="203" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#422#6985#0" />
+            <element signature="e#8139#14606#0" />
+            <element signature="e#14701#19187#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ConnectToDB.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+        <state relative-caret-position="1104">
+          <caret line="97" column="43" selection-start-line="97" selection-start-column="43" selection-end-line="97" selection-end-column="43" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SendMail.py">
+    <entry file="file://$PROJECT_DIR$/Config.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="96" column="70" lean-forward="true" selection-start-line="96" selection-start-column="70" selection-end-line="96" selection-end-column="70" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#8139#14606#0" />
-            <element signature="e#14701#19187#0" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
